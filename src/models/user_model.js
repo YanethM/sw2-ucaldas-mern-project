@@ -12,4 +12,4 @@ const userSchema = new mongoose.Schema({
 
 // En la exportación, mongoose crea un modelo cuya colección en la base de datos
 //se llamará "User" y tendrá la estructura definida en el esquema "userSchema"
-module.exports = mongoose.model("User", userSchema);
+module.exports = mongoose.model("UserCollection", userSchema);
